@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sofia",cursive;
+    
+    box-sizing: border-box;
+}
+#container{
+    width:100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.logo{
+    width:130px;
+    height:100px;
+}
+.list_items
+{
+    list-style: none;
+    display: inline;
+    margin:0px 60px ;
+}
+.item{
+    color:black;
+    font-weight: 600;
+    font-size: larger;
+    text-decoration: None;
+}
+.item:hover{
+    color:red;
+    text-decoration: underline;
+}
+.home-content{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Charmonman", cursive;
+}
+#lname{
+    font-family: "Charmonman", cursive;
+    color:orange;
+}
+#user_details{
+    line-height: 1.12e;
+}
+#link{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.home_image{
+   width:45%;
+   height:70%;
+   position: absolute;
+   bottom: 0px;
+   right:30px;
+}
+.img1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left:50%;
+    transform: translateX(-50%);
+    /*hide the left 50% effect when hover not present */
+}
+.home_image:hover #shape{
+    bottom: 80px;
+}
+.home_image:hover #girl{
+    left:30%;
+}
+#about{
+    margin:20% 20% 40px 20%;
+}
+.sectionhead{
+    text-align: center;
+}
+#aboutheading{
+    font-size: 30px;
+}
+#intro{
+    color: green;
+}
+.aboutimg{
+    height: 400px;
+}
+.aboutcontent
+{
+font-size: 20px;
+text-align: justify;
+}
+.informations{
+    margin-top: 1.3rem;
+}
+.aboutbody{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 50px;
+}
+.infobox{
+    margin-bottom: 10px;
+}.infobox>span{
+    margin-left: 5px;
+}
+.skillsection{
+    margin:0% 8% 0px 8%;
+}
+.skillcontent{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:2rem;
+    margin-top: 20px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.mainHead, .barPercentage{
+    font-weight: 500px;
+    font-size: 1.3rem;
+}
+.barPercentage{
+    margin-left: 90%;
+}
+.baseBar{
+    width:100%;
+    height:0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.baseBar htmlBar{
+    position: absolute;
+    background-color: orange;
+    width:89%;
+}
+.baseBar nodeBar{
+    background-color: orange;
+    width:89%;
+}
+.baseBar jsBar{
+    background-color: orange;
+    width:89%;
+}
+.baseBar reactBar{
+    background-color: orange;
+    width:89%;
+}
+#contact{
+    margin:8% 8% 0px 8%;
+}
+.iconcollection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
