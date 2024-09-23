@@ -118,8 +118,8 @@ text-align: justify;
 }.infobox>span{
     margin-left: 5px;
 }
-.skillsection{
-    margin:0% 8% 0px 8%;
+#skill{
+    margin:8% 8% 0px 8%;
 }
 .skillcontent{
     display:grid;
@@ -135,13 +135,15 @@ text-align: justify;
     position: relative;
     padding: 1rem 0px;
 }
+
 .mainHead, .barPercentage{
     font-weight: 500px;
     font-size: 1.3rem;
 }
-.barPercentage{
+
+/* .barPercentage{
     margin-left: 90%;
-}
+} */
 .baseBar{
     width:100%;
     height:0.5rem;
@@ -149,23 +151,25 @@ text-align: justify;
     border-radius: 10px;
     position: absolute;
     bottom: 0px;
+
 }
-.baseBar htmlBar{
+
+.htmlBar{
     position: absolute;
     background-color: orange;
     width:89%;
 }
-.baseBar nodeBar{
+.nodeBar{
     background-color: orange;
-    width:89%;
+    width:71%;
 }
-.baseBar jsBar{
+.jsBar{
     background-color: orange;
-    width:89%;
+    width:82%;
 }
-.baseBar reactBar{
+.reactBar{
     background-color: orange;
-    width:89%;
+    width:70%;
 }
 #contact{
     margin:8% 8% 0px 8%;
@@ -185,4 +189,4 @@ text-align: justify;
     justify-content: center;
     align-items: center;
     margin: 0px 10px;
-}
+} 
