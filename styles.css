@@ -190,6 +190,7 @@ text-align: justify;
 } 
 .brands{
     color: black;
+<<<<<<< HEAD
     font-size: 1.8rem;
 }
 .icon:hover{
@@ -246,4 +247,7 @@ border-radius: 10px;
 ::-webkit-scrollbar-thumb{
     background-color: orange;
     border-radius: 5px;
+=======
+    font-size: 2rem;
+>>>>>>> 12f583bfc6e9415d41bb62f6e55bbfaef586c01f
 }
