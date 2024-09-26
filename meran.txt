@@ -1,0 +1,158 @@
+Table
+thead:table head
+tbody: 
+container tag:
+    div tag
+    section tag
+    article tag
+NOTE: IMG TAG IS INLINE elements
+      H TAG IS BLOCK ELEMENT
+--------------------------------------
+---------------css--------------------
+--------------------------------------
+1 used to style HTML elements
+2 how to apply css in html
+--(A)Inline css - style attribute
+----- syntax: style="property:value;"
+-----    html color codes ->website
+--(B)Intenal css - style tag
+--ca be in body or head tag
+-- syntax" 
+-- <style>
+    selectors{
+        property: value;
+    }
+   </style>
+--(C) External css - use external css file
+      we have to link css file to html file
+      syntax: 
+      selectors{
+        property:value;
+      }
+      type of selectors:--
+      (i) tag name id...'#id_name'-----1st priority
+      (ii) class name... '.class_name'----
+      (iii) universal selector.......'*'
+      (iv) css combinators : --if 2-3 tag's I dont want class but same attributes 
+            a- grouping selectors - use comma
+               h3,h4
+            b - decendant selector - use space(parent-child)
+            c - child selector - use > symbol
+            d - sibling selector - ~ symbol used
+            e- immediate sibling selector - + symbol used, ony for immediate tag
+
+    -------------CSS Properties --------------------------------
+    1. Float : float elements in left/right position
+    2. Position
+            a. static position
+            b. fixed position
+            c.absolute position //1st parent position
+            d.relative position  (both abs & relative) works together
+            d.sticky
+        -z index
+        ///sept 07
+    3.flexBox- align html elements either in row or column
+        flex should be used in a container
+        flex container is a parent tag which holds elememts that to be arranged as row/column
+        apply it to the parent tag
+        display:flex
+        flexdiection:row/column/column-reverse/row-reverse
+        space: to get horizontal space
+            > justify:content: space-around
+            > justify:content: space-between
+            > justify:content: space-evenly
+        aligning items to center:
+            > align-items: center
+        wrapping/fitting flex items based on screen size
+            > flex-wrap:wrap
+    4. Text center
+        place it in div
+        height in view port(100vh)
+        display in flex
+            horizontal center: justify-content
+            verical center : align-item
+    5. Pseudo class
+        its redefining, so we need to define it before
+        syntax:
+        selector: pseudo{
+            property:value;
+        }
+    6. Transform: 
+            horizontal: transformX(-ve of left)
+    7. Grid : elements are arranged in rows & columns
+                where we can fix the column width
+                - apply only inside grid container
+                -by default set grid width
+                -grid-template-column/row: to set width of column/row
+                -grid spacing: column (col gap)& row (row gap)
+                -fr : fractional unit
+                    grid-template-columns: repeat(col numb,1fr);
+    8. CSS Gradients
+        linear gradient is used for setting combination of 2 colors
+         background-image: linear-gradient(to bottom right, red, yellow);
+
+    9. CSS Animations
+        browser dependent
+        keyword for animations : - 
+            @keyframes
+        applied based on 0(start)-100(end) %
+            animation : rotate 3s;
+            @keyframes rotate{
+                0%{
+                    //for rotating transform
+                    transform: rotate(30deg);
+                }
+                20%{
+                    transform: rotate(-30deg);
+                }
+                40%{
+                    //for rotating transform
+                    transform: rotate(30deg);
+                }
+                60%{
+                    transform: rotate(-30deg);
+                }
+                 80%{
+                    //for rotating transform
+                    transform: rotate(30deg);
+                }
+                100%{
+                    transform: rotate(-30deg);
+                }
+                
+            }
+        10. Scrollbar styling
+            smooth scrolling: html{
+                                scroll-behavior: smooth;
+                                }
+            thumb
+            track
+    --------------------------Animation Libraries------------------------
+    Animate.css
+        provide libraries: work only when intially loaded  
+    Animate AOS
+    Locomotive scroll // need to know js
+           
+
+    --------------------------Web Hosting----------------------------------
+        -NETLIFY
+        -github pges
+        -vercel
+    
+__________________________________________________GIT_______________________________________________________
+GIT: USED FOR VERSION CONTROLS
+COMMANDS::
+    git status ---to know current status of git inside the folder
+    git inint  ---to initialize & create repository inside the folder
+    git add .  ---to track files in the folder
+    git commit -m "message" ----- used to save or track changes
+    git remote add origin https://github.com/ANNDANTIES/portfolioo.git
+    git push origin master
+    //if pop up comes login git hub account
+    //sign up with your browser
+    //authorise git hub account
+----------------------------------------Media queries--------------------------------
+used to design responsive web pages
+
+all used for all media type devices
+print used for print preview mode

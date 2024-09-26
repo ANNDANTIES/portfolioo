@@ -190,5 +190,60 @@ text-align: justify;
 } 
 .brands{
     color: black;
-    font-size: 3rem;
+    font-size: 1.8rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,red,green,rgb(21, 21, 94));
+}
+
+.icon:hover .brands{
+    color:white;
+    animation : rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        tranform:rotate(30deg);
+    }
+    20%{
+        transform:rotate(-30deg);
+    }
+    40%{
+        transform:rotate(30deg);
+    }
+    60%{
+        transform:rotate(-30deg);
+    }
+    80%{
+        transform:rotate(30deg);
+    }
+    100%{
+        transform:rotate(-30deg);
+    }
+}
+footer{
+    margin-top: 8%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 200;
+}
+.uparrow{
+    float:right;
+    margin: -70px 70px 0px 0px;
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width:10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+background-color:azure;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 5px;
 }

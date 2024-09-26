@@ -16,6 +16,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gloock&family=Londrina+Sketch&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+        <!-- Animate styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        <!-- Animate AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,18 +30,18 @@
               <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=626&ext=jpg" class="logo" alt="not found" />
               <!--links  -->
               <ul>
-                <li class="list_items"><a class="item" href="">HOME</a></li>
-                <li class="list_items"><a class="item" href="">ABOUT</a></li>
-                <li class="list_items"><a class="item" href="">SkILLS</a></li>
-                <li class="list_items"><a class="item" href="">CONTACT</a></li>
+                <li class="list_items"><a class="item" href="#home-contennt">HOME</a></li>
+                <li class="list_items"><a class="item" href="#about">ABOUT</a></li>
+                <li class="list_items"><a class="item" href="#skill">SkILLS</a></li>
+                <li class="list_items"><a class="item" href="#contact">CONTACT</a></li>
                
               </ul>
         </nav>
         <!-- Home -->
-         <section>
+         <section id="home">
             <!-- Home Detail -->
             <div class="home-content">
-                <h1 id="username">I'm&nbsp;&nbsp;<Anna id="lname">Anna Danties</span></h1>
+                <h1 class="animate__animated animate__bounceInLeft" id="username">I'm&nbsp;&nbsp;<Anna id="lname">Anna Danties</span></h1>
                 <p id="user_details">This is my official portfolio website to describe all
                 <br>
                 details and work experience in web developement.
@@ -61,25 +65,26 @@
                 <span id="intro">Introduction</span>
             </div>
             <div class="aboutbody">
-                    <img src="https://st2.depositphotos.com/1001911/11544/v/450/depositphotos_115445586-stock-illustration-girl-pointing-at-herself.jpg" class="aboutimg" alt="not found" /></=div>
-                    <div >
-                        <p class="aboutcontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugiat repudiandae beatae aperiam minima enim excepturi architecto ducimus eum? Possimus, quo nulla ipsam quod rerum maxime esse? Error, provident explicabo!
-                        Accusantium praesentium atque possimus ipsam similique ex, nam labore pariatur quas? Dignissimos, at. Perferendis magnam repellendus numquam reiciendis velit. Ipsam nisi nostrum tempora laudantium, asperiores eos? Vero repellat maxime corrupti!</p>
-                        <div class="informations">
-                            <div class="infobox">
-                                <i class="fa-solid fa-user"></i>
-                                <span>Anna Danties</span>
-                            </div>
-                            <div class="infobox">
-                                <i class="fa-solid fa-phone"></i>
-                                <span>+91 9656044123</span>
-                            </div>
-                            <div class="infobox">
-                                <i class="fa-solid fa-envelope"></i>
-                                <span>annadanties@gmail.com</span>
-                            </div>
-                    </div>
-               
+                <div data-aos="fade-right"><img src="https://st2.depositphotos.com/1001911/11544/v/450/depositphotos_115445586-stock-illustration-girl-pointing-at-herself.jpg" class="aboutimg" alt="not found" /></div>
+                <div class="aboutcontent">
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugiat repudiandae beatae aperiam minima enim excepturi architecto ducimus eum? Possimus, quo nulla ipsam quod rerum maxime esse? Error, provident explicabo!
+                    Accusantium praesentium atque possimus ipsam similique ex, nam labore pariatur quas? Dignissimos, at. Perferendis magnam repellendus numquam reiciendis velit. Ipsam nisi nostrum tempora laudantium, asperiores eos? Vero repellat maxime corrupti!</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Anna Danties</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 9656044123</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>annadanties@gmail.com</span>
+                        </div>
+                </div>
+                
+                </div>
             </div>
          </section>
         <!-- Skills -->
@@ -96,32 +101,32 @@
                                 <h3 class="mainHead">HTML</h3>      
                                 <span class="barPercentage">89%</span>
                                 <div class="baseBar"></div>
-                                <div class="baseBar htmlBar"></div>
+                                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="baseBar htmlBar"></div>
                         </div>
                         <!-- JS -->
                         <div class="bars">
                                 <h3 class="mainHead">JS</h3>
                                 <span class="barPercentage">71%</span>
                                 <div class="baseBar"></div>
-                                <div class="baseBar jsBar"></div>
+                                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="baseBar jsBar"></div>
                         </div>
                         <!-- React Js -->
                         <div class="bars">                     
                                 <h3 class="mainHead">React</h3>
                                 <span class="barPercentage">82%</span>
                                 <div class="baseBar"></div>
-                                <div class="baseBar reactBar"></div>                           
+                                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="baseBar reactBar"></div>                           
                         </div>
                         <!-- Node Js -->
                         <div class="bars">                        
                                 <h3 class="mainHead">Node js</h3>
                                 <span class="barPercentage">70%</span>
                                 <div class="baseBar"></div>
-                                <div class="baseBar nodeBar"></div>
+                                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="baseBar nodeBar"></div>
                         </div>
                     
                 </div>
-                <div class="skillImage">
+                <div class="skillImage" data-aos="fade-left ">
                     <img class="myskill" width=100% src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200720110419/Screenshot-from-2020-07-20-11-03-57.png" alt="no image">
                 </div>
         </section>
@@ -159,8 +164,21 @@
             </div>
         </section>
         <!-- Footer -->
+         <footer>
+            <p id="copyright">
+                &copy;My portfolio website Sept 2024, All RightReserved to &reg; Anna Danties
+            </p>
+            <div class="icon uparrow">
+                <a href="#container">
+                    <i class="fa-solid fa-arrow-up brands"></i>
+                </a>
+            </div>
+         </footer>
     </div>
 
 </body>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
