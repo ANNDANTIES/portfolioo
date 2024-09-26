@@ -143,7 +143,7 @@ __________________________________________________GIT___________________________
 GIT: USED FOR VERSION CONTROLS
 COMMANDS::
     git status ---to know current status of git inside the folder
-    git inint  ---to initialize & create repository inside the folder
+    git init  ---to initialize & create repository inside the folder
     git add .  ---to track files in the folder
     git commit -m "message" ----- used to save or track changes
     git remote add origin https://github.com/ANNDANTIES/portfolioo.git
