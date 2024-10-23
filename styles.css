@@ -17,8 +17,9 @@ nav{
     margin-left: 30px;
 }
 .logo{
-    width:130px;
-    height:100px;
+    width:250px;
+    height:200px;
+    border-radius: 20px;
 }
 .list_items
 {
@@ -155,19 +156,19 @@ text-align: justify;
 .htmlBar{
     position: absolute;
     background-color: orange;
-    width:89%;
+    width:95%;
 }
 .nodeBar{
     background-color: orange;
-    width:71%;
+    width:85%;
 }
 .jsBar{
     background-color: orange;
-    width:82%;
+    width:90%;
 }
 .reactBar{
     background-color: orange;
-    width:70%;
+    width:90%;
 }
 #contact{
     margin:8% 8% 0px 8%;
@@ -190,7 +191,7 @@ text-align: justify;
 } 
 .brands{
     color: black;
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
     font-size: 1.8rem;
 }
 .icon:hover{
@@ -247,7 +248,4 @@ border-radius: 10px;
 ::-webkit-scrollbar-thumb{
     background-color: orange;
     border-radius: 5px;
-=======
-    font-size: 2rem;
->>>>>>> 12f583bfc6e9415d41bb62f6e55bbfaef586c01f
 }
