@@ -156,15 +156,15 @@ text-align: justify;
 .htmlBar{
     position: absolute;
     background-color: orange;
-    width:95%;
+    width:90%;
 }
 .nodeBar{
     background-color: orange;
-    width:85%;
+    width:95%;
 }
 .jsBar{
     background-color: orange;
-    width:90%;
+    width:95%;
 }
 .reactBar{
     background-color: orange;
